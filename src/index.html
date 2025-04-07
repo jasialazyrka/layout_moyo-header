@@ -11,12 +11,36 @@
       content="ie=edge"
     />
     <title>Moyo header</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+    crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="./style.css"
     />
   </head>
+
   <body>
-    <h1>Moyo header</h1>
+    <header class="main-header">
+      <a href="#" class="logo-link">
+        <img src="/src/images/logo.png" alt="Moyo logo">
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#" class="is-active">Apple</a></li>
+          <li><a href="#">Samsung</a></li>
+          <li><a href="#">Smartphones</a></li>
+          <li><a href="#" data-qa="hover">Laptops & Computers</a></li>
+          <li><a href="#">Gadgets</a></li>
+          <li><a href="#">Tablets</a></li>
+          <li><a href="#">Photo</a></li>
+          <li><a href="#">Video</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 hidden>Moyo header</h1>
   </body>
 </html>
